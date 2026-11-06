@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #833ab4;
+  background: linear-gradient(
+    to right,
+    #833ab4,#fd1d1d,#fcb045);
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.content {
+  width: 100%;
+  max-width: 380px;
+}
+
+.login-card {
+  background: white;
+  border: 1px solid #dbdbdb;
+  padding: 35px 30px;
+  text-align: center;
+}
+
+.brand {
+  font-family: cursive;
+  font-size: 42px;
+  margin-bottom: 12px;
+  color: #262626;
+}
+
+.training-label {
+  color: #777;
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+
+.login-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-card input {
+  padding: 13px 10px;
+  background: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.login-card button {
+  background: #4b8bea;
+  color: white;
+  border: none;
+  padding: 11px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.forgot {
+  margin-top: 25px;
+  font-size: 11px;
+  color: #777;
+}
+
+.success {
+  color: #16834a;
+  margin: 20px 0;
+}
+
+.security-result {
+  background: white;
+  border: 1px solid #dbdbdb;
+  padding: 25px;
+  margin-top: 20px;
+  line-height: 1.7;
+}
+
+.security-result h2 {
+  margin-bottom: 12px;
+}
+
+.security-result ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 11px;
+  color: #999;
+  margin-top: 25px;
+  line-height: 1.8;
+}
